@@ -1,0 +1,83 @@
+body {
+    margin:0;
+    overflow-x: hidden;
+}
+.menu {
+    position:fixed;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    width:100vw;
+    height: 7vh;
+    z-index: 100;
+
+}
+
+.menu-item {
+    flex: 1; /* Each item occupies equal space */
+    text-align: center; /* Center text horizontally */
+    line-height: 7vh; /* Vertically center text */
+    list-style: none;
+    font-size: 3vh;
+    border-radius: 20%;
+    
+    margin-left: 10vw;
+    margin-right:10vw;
+}
+
+#toAppButton {
+    height: 100px;
+    width: 300px;
+    border-radius: 100px;
+    background-color: white;
+    z-index: 100;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    font-size: 45px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center the content */
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    padding-bottom:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+
+}
+
+.screen {
+    position: relative;
+
+    width:100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#screen1 {
+   /* background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    background: radial-gradient(circle, #F27F3D 0%, #F26430 25%, #F2594B 50%, #F26B83 75%, #F2308B 100%);
+    
+   
+}
+
+#logo {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+#screen2 {
+    background-color: black;
+}
+
+#screen3 {
+    background-color: black;
+}
